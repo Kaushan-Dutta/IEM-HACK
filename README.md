@@ -1,5 +1,12 @@
 <h1 align="center"> IEM DEV SPRINT 2022 🎉</h1>
-# TMDB Website🎬
+<div align="center">
+
+  
+                  Participate in Hacktoberfest by contributing to any Open Source project on GitHub! 
+                   Any kind of Contributions are welcome!
+
+</div>
+## TMDB Website🎬
 ### Creating a website having the movies and its details through API call
 
 # Getting Started with Create React App
