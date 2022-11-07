@@ -6,6 +6,7 @@
                    Any kind of Contributions are welcome!
 
 </div>
+
 ## TMDB Website🎬
 ### Creating a website having the movies and its details through API call
 
