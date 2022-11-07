@@ -1,4 +1,3 @@
-![logo](https://user-images.githubusercontent.com/94303484/200309516-04e27c3a-30f6-4690-9f33-253cfd61ceeb.png)
 
 <h1 align="center"> IEM DEV SPRINT 2022 🎉</h1>
 
