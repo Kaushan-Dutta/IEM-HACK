@@ -1,6 +1,7 @@
 .App {
   text-align: center;
 }
+html{scroll-behavior: smooth;}
 
 .App-logo {
   height: 40vmin;
@@ -22,6 +23,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+::-webkit-scrollbar{
+  display: none;
 }
 
 .App-link {

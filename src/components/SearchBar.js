@@ -9,7 +9,10 @@ import Footer from "./Footer.js";
 import NewsLetter from "./NewsLetter.js";
 
 const SearchBar = () => {
+
+  //using hooks to get the typed data
   const [data, setData] = useState("");
+ 
   function getData(event) {
     setData(event.target.value);
   }
@@ -52,11 +55,13 @@ const SearchBar = () => {
           </div>
         </div>
       </div>
+
       <Home
         title="Upcoming Movies"
         fetchURL={Request.upcomingMovie}
         value={data}
       />
+      
       <Home
         title="Top Rated Movies"
         fetchURL={Request.topRatedMovie}
@@ -67,6 +72,7 @@ const SearchBar = () => {
         fetchURL={Request.popularMovie}
         value={data}
       />
+      
       <NewsLetter />
       <Footer />
     </>

@@ -22,12 +22,12 @@ const Navbar = () => {
                     <SiThemoviedatabase />
                   </span>
                 </a>
-                {/* <ul id="moviesType">
-                           <li><a href="">Upcoming</a></li>
-                           <li><a href="">Top Rated</a></li>
-                           <li><a href="">Popular</a></li>
+                 <ul id="moviesType">
+                           <li><a href="#Upcoming Movies">Upcoming</a></li>
+                           <li><a href="#Top Rated Movies">Top Rated</a></li>
+                           <li><a href="#Popular Movies">Popular</a></li>
 
-                        </ul> */}
+                        </ul> 
               </li>
               <li>
                 <a href="">

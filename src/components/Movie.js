@@ -5,6 +5,7 @@ import NavBar from "./Navbar.js";
 import Footer from "./Footer.js";
 
 const Movie = () => {
+  //getting the details of the movie
   const [movie, movieDetail] = useState({
     language: [],
     title: "",
@@ -21,7 +22,7 @@ const Movie = () => {
     banner: "",
     tagline: "",
   });
-  console.log(movie);
+  
 
   useEffect(() => {
     const load = async () => {
@@ -30,7 +31,7 @@ const Movie = () => {
           1
         )}?api_key=${process.env.REACT_APP_API_KEY}&language=en-US`
       );
-      console.log(getMovie);
+      
       movieDetail({
         language: getMovie.data.spoken_languages,
         title: getMovie.data.title,
@@ -73,7 +74,7 @@ const Movie = () => {
             />
           </div>
           <div className="contents px-3 py-3">
-            <p>
+            
               <h1>
                 {movie.title}
                 <span>({movie.release_date.substring(0, 4)})</span>
@@ -100,7 +101,7 @@ const Movie = () => {
                 Budget:{movie.budget}&nbsp;&nbsp;&nbsp;
                 <span>Revenue:{movie.revenue}</span>
               </p>
-            </p>
+            
           </div>
         </div>
       </div>

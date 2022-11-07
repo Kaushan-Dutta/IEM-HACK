@@ -10,14 +10,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <SearchBar />
-            </>
-          }
-        />
+        <Route path="/" element={<SearchBar />}/>
 
         <Route path="/:slug" element={<Movie />} />
       </Routes>
